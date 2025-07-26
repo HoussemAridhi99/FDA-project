@@ -4,8 +4,13 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from openai import OpenAI
+import os
+from dotenv import load_dotenv
 
-api_key = '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'
+# Load .env file from current directory
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
 
 # Page setup
 st.set_page_config(
