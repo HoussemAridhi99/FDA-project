@@ -1,0 +1,21 @@
+team,opponent,venue,date,score,xg,xga,shots,shots_against,shots_on_target,shots_on_target_against,ppda,ppda_against,description
+Arsenal,Manchester City,home,2025-02-02 16:30:00,5–1,1.532,0.743,12,7,7,4,14.467,17.769,5–1 thrashing of Manchester City at the Emirates
+Aston Villa,Newcastle United,home,2025-04-19 16:30:00,4–1,3.054,1.272,23,10,9,3,11.227,13.875,4–1 victory over Newcastle United
+Bournemouth,Manchester City,home,2024-11-02 15:00:00,2–1,2.449,2.353,12,19,6,4,15.05,13.0,"2–1 upset win over Manchester City on November 2, 2024—ended City's 32-match unbeaten streak"
+Brentford,Ipswich,home,2024-10-26 14:00:00,4–3,4.097,1.657,20,11,9,5,7.933,18.632,Dramatic 4–3 late win over Ipswich
+Brighton,Manchester City,home,2024-11-09 17:30:00,2–1,2.871,2.603,10,15,4,6,13.567,17.471,2-1 comeback win vs Manchester City
+Chelsea,Brighton,home,2024-09-28 14:00:00,4–2,3.658,1.207,15,15,7,5,25.231,8.138,"Cole Palmer's four-goal first-half performance in a 4–2 win over Brighton on September 28, 2024"
+Crystal Palace,Aston Villa,home,2025-02-25 19:30:00,4–1,4.025,0.667,19,6,6,2,6.429,5.714,"4–1 victory over Aston Villa on February 25, 2025—Ismaïla Sarr's birthday double"
+Everton,Liverpool,home,2025-02-12 19:30:00,2–2,0.911,0.929,10,6,3,4,17.722,4.562,"2–2 Merseyside Derby draw against Liverpool on February 12, 2025—Tarkowski's 98th-minute volley"
+Fulham,Liverpool,home,2025-04-06 13:00:00,3–2,1.728,1.406,12,14,6,6,21.733,6.429,3-2 Home win against Liverpool
+Ipswich,Chelsea,home,2024-12-30 19:45:00,2–0,1.501,1.606,9,20,6,5,22.938,7.562,"2–0 win over Chelsea at Portman Road on December 30, 2024—Liam Delap scored and assisted"
+Leicester,Ipswich,home,2025-05-18 14:00:00,2–0,0.789,1.37,9,20,3,2,9.321,12.708,"2-0 win vs Ipswich, Vardy scores 200th goal for Leicester at his last game at home"
+Liverpool,Tottenham,home,2025-04-27 15:30:00,5–1,2.511,0.513,25,8,8,3,6.0,24.308,"5–1 destruction of Tottenham on April 27, 2025—clinched title with emphatic home display"
+Manchester City,Crystal Palace,home,2025-04-12 11:30:00,5–2,4.597,1.338,21,7,9,3,8.923,46.222,"5–2 comeback win against Crystal Palace on April 12, 2025—mounted dramatic turnaround"
+Manchester United,Manchester City,away,2024-12-15 16:30:00,2–1,2.047,0.638,10,10,3,3,7.929,16.944,Amad Diallo's late winner to win away in the Manchester Derby
+Newcastle United,Ipswich,away,2024-12-21 15:00:00,4–0,3.234,1.064,15,10,7,2,12.263,17.783,Alexander Isak's hat-trick in a 4–0 win at Ipswich
+Nottingham Forest,Brighton,home,2025-02-01 12:30:00,7–0,4.068,0.756,14,10,9,5,19.938,6.286,"Record 7–0 victory against Brighton on February 1, Chris Wood hat-trick"
+Southampton,Liverpool,home,2024-11-24 14:00:00,2–3,1.54,3.188,7,27,5,11,24.0,8.286,"3–2 loss vs Liverpool, they tried at least..."
+Tottenham,Manchester United,away,2024-09-29 15:30:00,3–0,5.407,0.601,24,11,10,2,12.177,14.63,Destroying Manchester United 3-0 at Old Trafford
+West Ham,Manchester United,away,2025-05-11 13:15:00,2–0,2.16,2.313,9,20,4,5,14.823,15.857,Victory vs Manchester United 2-0 at Old Trafford
+Wolverhampton Wanderers,Fulham,away,2024-11-23 15:00:00,4–1,1.339,0.717,10,10,5,3,14.368,6.611,Cunha amazing performance and destroying Fulham 1-4 away from home
