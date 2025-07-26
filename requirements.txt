@@ -1,0 +1,1 @@
+streamlit,pandas,mplsoccer,openai,plotly,PIL,altair,numpy
