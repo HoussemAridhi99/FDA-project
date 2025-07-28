@@ -6,3 +6,5 @@ plotly
 altair
 numpy
 dotenv
+
+dotenv
