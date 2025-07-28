@@ -5,3 +5,4 @@ openai
 plotly
 altair
 numpy
+dotenv

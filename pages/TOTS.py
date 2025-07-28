@@ -178,7 +178,8 @@ best11['ST'] = subgroup_scores['Forward_core'][0][0]
 
 
 pitch = Pitch(pitch_color='grass', 
-    line_color='white', 
+    line_color='white',
+    corner_arcs=True,
     stripe=True,
     pitch_type='statsbomb',
     axis=False)
