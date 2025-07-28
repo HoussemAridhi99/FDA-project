@@ -55,7 +55,7 @@ radar_stats_map = {
     'Goalkeeper': ['Saves %', 'Clean Sheets', 'Goals Prevented', 'Goals Conceded', 'High Claims'],
     'Defender': ['Tackles', 'Interceptions', 'Blocks', 'gDuels %', 'aDuels %','Passes%','Goals','Assists'],
     'Midfielder': ['Goals', 'Assists','Shots','fThird Passes', 'Passes%', 'Touches', 'Progressive Carries', 'Through Balls','Fouls'],
-    'Forward': ['Goals', 'Shots', 'Assists','Passes%', 'Conversion %', 'Big Chances Missed']
+    'Forward': ['Goals', 'Shots', 'Assists','Passes%', 'Hit Woodwork', 'Big Chances Missed']
 }
 
 # --- SELECTION ---
@@ -122,7 +122,7 @@ def get_radar_vals(row, pos):
     for stat in radar_stats_map[pos]:
         col = stat + ' per90' if stat + ' per90' in df.columns else stat
         try:
-            pct = 100 - pool[col].rank(pct=True, ascending=True)[row.name]*100 if stat in ['Goals Conceded','Own Goals','Fouls'] else pool[col].rank(pct=True)[row.name]*100
+            pct = 100 - pool[col].rank(pct=True, ascending=True)[row.name]*100 if stat in ['Goals Conceded', 'Own Goals','Hit Woodwork', 'Fouls', 'Big Chances Missed'] else pool[col].rank(pct=True)[row.name]*100
         except:
             pct = 0
         out.append(pct/100)

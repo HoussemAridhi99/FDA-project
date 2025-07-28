@@ -203,7 +203,7 @@ radar_stats_map = {
     'Goalkeeper': ['Saves %', 'Clean Sheets', 'Goals Prevented', 'Goals Conceded', 'High Claims'],
     'Defender':   ['Tackles', 'Interceptions', 'Blocks', 'gDuels %', 'aDuels %','Passes%','Goals','Assists'],
     'Midfielder': ['Goals', 'Assists','Shots','fThird Passes', 'Passes%', 'Touches', 'Progressive Carries', 'Through Balls','Fouls'],
-    'Forward':    ['Goals', 'Shots', 'Assists','Passes%', 'Conversion %', 'Big Chances Missed']
+    'Forward':    ['Goals', 'Shots', 'Assists','Passes%', 'Hit Woodwork', 'Big Chances Missed']
 }
 
 # Build a dict of percentiles using fmt_val
