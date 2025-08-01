@@ -1,0 +1,16 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+    - cron: '0 */10 * * *'  # every 10 hours; adjust as desired (min interval 5m)
+  workflow_dispatch:        # allows manual trigger in GitHub UI
+
+jobs:
+  ping_app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Streamlit app
+        run: |
+          HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" ${{ secrets.PING_URL }})
+          echo "Pinged ${{ secrets.PING_URL }} — status $HTTP_STATUS"
