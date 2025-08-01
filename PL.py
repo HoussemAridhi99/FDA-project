@@ -36,7 +36,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1 style='text-align: center; color: #37003C;'>⚽ Premier League Football Analytics</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #37003C;'>⚽ Premier League 2024/2025 Analytics</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Create a full-page grid with large buttons

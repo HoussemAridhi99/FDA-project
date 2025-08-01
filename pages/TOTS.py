@@ -211,7 +211,7 @@ assigned_positions = {
 }
 
 # Header
-st.markdown(f"<h1 style='text-align:center; color:{PRIMARY};'>⚽️ Team Of The Season</h1>", unsafe_allow_html=True)
+st.markdown(f"<h1 style='text-align:center; color:{PRIMARY};'>⚽️ 24/25 Team Of The Season</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 
